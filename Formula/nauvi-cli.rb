@@ -12,19 +12,19 @@ class NauviCli < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/nexburst/nauvi/releases/download/v0.4.0/nauvi-cli-v0.4.0-aarch64-apple-darwin.tar.gz"
-      sha256 "d737cc26660a18e43894fc8170125a0e85f783635fcdfd366e61530ed5564368"
+      url "https://github.com/nexburst/nauvi/releases/download/v0.4.1/nauvi-cli-v0.4.1-aarch64-apple-darwin.tar.gz"
+      sha256 "fb5cd846cd787635772dee5329b217cf19aa08d13408243340643b2513d2a0a2"
     end
     on_intel do
-      url "https://github.com/nexburst/nauvi/releases/download/v0.4.0/nauvi-cli-v0.4.0-x86_64-apple-darwin.tar.gz"
-      sha256 "a48d929b39fcda073266aec1c0c0f1f18793fc557a5de4d28435883aca916959"
+      url "https://github.com/nexburst/nauvi/releases/download/v0.4.1/nauvi-cli-v0.4.1-x86_64-apple-darwin.tar.gz"
+      sha256 "5eb1bd999a2e42d1705628af47650713ade3f51b41e46ee72d8157b082f18407"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/nexburst/nauvi/releases/download/v0.4.0/nauvi-cli-v0.4.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "019f62d29a10f14565071ee7d3a95a05e0f66e41be1fe899a6f70627ab20ec25"
+      url "https://github.com/nexburst/nauvi/releases/download/v0.4.1/nauvi-cli-v0.4.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "6efda43ae53f997c449f6391567e3677c25d1eefee721b623780681371505154"
     end
   end
 
